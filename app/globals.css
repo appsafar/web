@@ -183,3 +183,13 @@ body {
   letter-spacing: var(--tracking-normal);
   font-family: var(--font-montserrat), sans-serif;
 }
+
+@layer utilities {
+  .bg-diamond {
+    background: radial-gradient(
+      circle at 50% 100%,
+      rgba(255, 56, 92, 0.3) 0%,
+      #ffffff 100%
+    );
+  }
+}
