@@ -2,7 +2,9 @@
   "home": {
     "title": "Hola Safar",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. y a e k ñ",
-    "button": "Haz clic"
+    "button": "Haz clic",
+    "days": "días",
+    "ageRange": "edad"
   },
   "navbar": {
     "faq": "Preguntas frecuentes",
