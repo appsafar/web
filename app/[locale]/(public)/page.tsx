@@ -6,7 +6,7 @@ export default async function Home() {
   const t = await getTranslations("home");
 
   return (
-    <div className="w-[900px] mx-auto">
+    <div className="md:w-[900px] mx-auto">
       <Navbar />
       <Hero />
     </div>

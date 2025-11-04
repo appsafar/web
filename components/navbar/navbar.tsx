@@ -23,21 +23,21 @@ const NavbarDesktop = () => {
   const t = useTranslations("navbar");
 
   return (
-    <div className="hidden w-full items-center justify-center gap-8 md:flex">
+    <div className="hidden w-full items-center justify-center gap-4 md:flex mr-[40px]">
       <Link
         href="/"
-        className="text-sm font-small transition-colors hover:text-primary"
+        className="text-sm font-small transition-colors hover:text-primary max-w-[155px]"
       >
         {t("faq")}
       </Link>
       <Link
         href="/"
-        className="text-sm font-small transition-colors hover:text-primary"
+        className="text-sm font-small transition-colors hover:text-primary max-w-[155px]"
       >
         {t("pricing")}
       </Link>
 
-      <Link href="/" className="flex items-center mx-6">
+      <Link href="/" className="flex items-center mx-6 max-w-[155px]">
         <Image
           src="/safar-logo.png"
           alt="Safar"
@@ -49,13 +49,13 @@ const NavbarDesktop = () => {
 
       <Link
         href="/"
-        className="text-sm font-small transition-colors hover:text-primary"
+        className="text-sm font-small transition-colors hover:text-primary max-w-[155px]"
       >
         {t("howItWorks")}
       </Link>
       <Link
         href="/"
-        className="text-sm font-small transition-colors hover:text-primary"
+        className="text-sm font-small transition-colors hover:text-primary max-w-[155px]"
       >
         {t("blog")}
       </Link>

@@ -12,5 +12,18 @@
   },
   "hero": {
     "title": "Encuentra gente compatible para viajar y que el plan ocurra de verdad."
+  },
+  "betaSignup": {
+    "socialTypes": {
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "email": "Email"
+    },
+    "instagramPlaceholder": "@tu_usuario",
+    "tiktokPlaceholder": "@tu_usuario",
+    "emailPlaceholder": "ejemplo@gmail.com",
+    "button": "Quiero apuntarme a la beta",
+    "validationError": "Por favor ingresa un valor",
+    "successMessage": "Registrado: {socialType} - {value}"
   }
 }
