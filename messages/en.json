@@ -61,5 +61,39 @@
         "imageAlt": "Private trip chat"
       }
     }
+  },
+  "pricing": {
+    "title": "Choose the plan you need",
+    "buttonText": "Coming soon",
+    "cancelText": "You can cancel at any time with one click",
+    "plans": {
+      "base": {
+        "name": "BASE",
+        "price": "0",
+        "pricePeriod": "€ /month",
+        "features": {
+          "activeGroups": "1 active group",
+          "aiItineraries": "Generate itineraries with AI"
+        }
+      },
+      "pro": {
+        "name": "PRO",
+        "price": "5.99",
+        "pricePeriod": "€ /month",
+        "features": {
+          "activeGroups": "3 active groups",
+          "aiItineraries": "Generate itineraries with AI"
+        }
+      },
+      "max": {
+        "name": "MAX",
+        "price": "9.99",
+        "pricePeriod": "€ /month",
+        "features": {
+          "activeGroups": "10 active groups",
+          "aiItineraries": "Generate itineraries with AI"
+        }
+      }
+    }
   }
 }

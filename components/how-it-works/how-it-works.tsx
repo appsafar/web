@@ -28,7 +28,10 @@ const HowItWorks = async () => {
   const t = await getTranslations("howItWorks");
 
   return (
-    <section className="my-10 md:my-16 flex flex-col items-center justify-center px-4">
+    <section
+      id="how-it-works"
+      className="my-10 md:my-16 flex flex-col items-center justify-center px-4"
+    >
       <h2 className="text-2xl font-semibold text-center md:text-2xl md:font-bold">
         <span className="block">{t("title")}</span> {t("subtitle")}
       </h2>

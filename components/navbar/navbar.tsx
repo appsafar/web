@@ -15,7 +15,7 @@ import Image from "next/image";
 const NAV_LINKS = [
   { key: "faq", href: "/" },
   { key: "pricing", href: "/" },
-  { key: "howItWorks", href: "/" },
+  { key: "howItWorks", href: "#how-it-works" },
   { key: "blog", href: "/" },
 ];
 
@@ -48,7 +48,7 @@ const NavbarDesktop = () => {
       </Link>
 
       <Link
-        href="/"
+        href="#how-it-works"
         className="text-sm font-small transition-colors hover:text-primary max-w-[155px]"
       >
         {t("howItWorks")}

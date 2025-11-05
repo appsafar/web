@@ -61,5 +61,39 @@
         "imageAlt": "Chat privado del viaje"
       }
     }
+  },
+  "pricing": {
+    "title": "Elige el plan que necesitas",
+    "buttonText": "Próximamente",
+    "cancelText": "Podrás darte de baja en cualquier momento en un solo clic",
+    "plans": {
+      "base": {
+        "name": "BASE",
+        "price": "0",
+        "pricePeriod": "€ /mes",
+        "features": {
+          "activeGroups": "1 grupo activo",
+          "aiItineraries": "Genera itinerarios con IA"
+        }
+      },
+      "pro": {
+        "name": "PRO",
+        "price": "5,99",
+        "pricePeriod": "€ /mes",
+        "features": {
+          "activeGroups": "3 grupos activos",
+          "aiItineraries": "Genera itinerarios con IA"
+        }
+      },
+      "max": {
+        "name": "MAX",
+        "price": "9,99",
+        "pricePeriod": "€ /mes",
+        "features": {
+          "activeGroups": "10 grupos activos",
+          "aiItineraries": "Genera itinerarios con IA"
+        }
+      }
+    }
   }
 }
