@@ -95,5 +95,16 @@
         }
       }
     }
+  },
+  "blogBanner": {
+    "title": "Safar nace de una necesidad real",
+    "readMore": "Leer más",
+    "desktop": {
+      "description": "Durante mucho tiempo quise viajar pero no quiería hacerlo solo. Busqué comunidades y plataformas, pero ninguna unía compatibilidad, claridad y organización en un mismo lugar. Por eso creé Safar: un espacio donde personas afines se encuentran y convierten ideas en viajes reales. Con grupos privados, chat y herramientas simples, planificar deja de ser un caos y empezar se vuelve fácil."
+    },
+    "mobile": {
+      "descriptionPart1": "Quería viajar, pero no solo. Probé comunidades y apps: faltaba compatibilidad, claridad y orden.",
+      "descriptionPart2": "Por eso creé Safar: conecta a personas afines y convierte ideas en viajes reales con grupos privados, chat y herramientas simples."
+    }
   }
 }
