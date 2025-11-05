@@ -35,5 +35,31 @@
     "button": "I want to sign up for the beta",
     "validationError": "Please enter a value",
     "successMessage": "Registered: {socialType} - {value}"
+  },
+  "howItWorks": {
+    "title": "Want to travel in a group?",
+    "subtitle": "Safar makes it simple: find, create and plan.",
+    "features": {
+      "createTrip": {
+        "title": "Create and publish your trip",
+        "description": "Create a group trip and share it with your friends.",
+        "imageAlt": "Create a trip"
+      },
+      "joinGroup": {
+        "title": "Join a group",
+        "description": "Explore open trips by destination and dates. Request a spot and confirm with one click.",
+        "imageAlt": "Join a group"
+      },
+      "organizeItinerary": {
+        "title": "Organize the day-to-day itinerary",
+        "description": "Add activities and schedules; tag each day (relax, party, adventure, culture...). The whole group sees and proposes.",
+        "imageAlt": "Organize the day-to-day itinerary"
+      },
+      "privateChat": {
+        "title": "Private trip chat",
+        "description": "Coordinate everything from a single chat: questions, documents, votes and changes in real time.",
+        "imageAlt": "Private trip chat"
+      }
+    }
   }
 }

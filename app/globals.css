@@ -187,9 +187,29 @@ body {
 @layer utilities {
   .bg-diamond {
     background: radial-gradient(
-      circle at 50% 32%,
+      circle at 50% 15%,
       rgba(255, 56, 92, 0.2) 0%,
-      #ffffff 28%
+      #ffffff 15%
     );
+  }
+
+  @media (min-width: 768px) {
+    .card-pink-shadow {
+      box-shadow: 0 4px 200px rgba(255, 56, 92, 0.15),
+        0 -8px 20px rgba(255, 56, 92, 0.1), 0 0 10px rgba(255, 56, 92, 0.05);
+    }
+
+    .card-yellow-shadow {
+      box-shadow: 0 4px 200px rgba(255, 193, 7, 0.1),
+        0 -8px 20px rgba(255, 193, 7, 0.1), 0 0 10 rgba(255, 193, 7, 0.05);
+    }
+
+    .bg-diamond {
+      background: radial-gradient(
+        circle at 50% 20%,
+        rgba(255, 56, 92, 0.2) 0%,
+        #ffffff 20%
+      );
+    }
   }
 }
