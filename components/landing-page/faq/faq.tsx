@@ -30,7 +30,7 @@ const FAQContent = () => {
   const t = useTranslations("faq");
 
   return (
-    <section className="py-10 md:py-16 px-4">
+    <section id="faq" className="py-10 md:py-16 px-4">
       <div className="md:w-[600px] mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
           {t("title")}

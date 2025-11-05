@@ -13,9 +13,9 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 const NAV_LINKS = [
-  { key: "faq", href: "/" },
-  { key: "pricing", href: "/" },
-  { key: "howItWorks", href: "#how-it-works" },
+  { key: "faq", href: "/#faq" },
+  { key: "pricing", href: "/#pricing" },
+  { key: "howItWorks", href: "/#how-it-works" },
   { key: "blog", href: "/" },
 ];
 
@@ -25,13 +25,13 @@ const NavbarDesktop = () => {
   return (
     <div className="hidden w-full items-center justify-center gap-4 md:flex mr-[40px]">
       <Link
-        href="/"
+        href={NAV_LINKS[0].href}
         className="text-sm font-small transition-colors hover:text-primary max-w-[155px]"
       >
         {t("faq")}
       </Link>
       <Link
-        href="/"
+        href={NAV_LINKS[1].href}
         className="text-sm font-small transition-colors hover:text-primary max-w-[155px]"
       >
         {t("pricing")}
@@ -48,13 +48,13 @@ const NavbarDesktop = () => {
       </Link>
 
       <Link
-        href="#how-it-works"
+        href={NAV_LINKS[2].href}
         className="text-sm font-small transition-colors hover:text-primary max-w-[155px]"
       >
         {t("howItWorks")}
       </Link>
       <Link
-        href="/"
+        href={NAV_LINKS[3].href}
         className="text-sm font-small transition-colors hover:text-primary max-w-[155px]"
       >
         {t("blog")}

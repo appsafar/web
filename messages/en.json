@@ -129,5 +129,32 @@
       "question": "Suggestions and new features",
       "answer": "Write to us at itsjesusmacias@gmail.com with the subject \"SAFAR: [your topic]\". We read all proposals and prioritize the most requested ones. Thank you for helping us build Safar."
     }
+  },
+  "footer": {
+    "copyright": "Safar.",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "section1": {
+      "title": "1. Information we collect",
+      "content": "At SAFAR, we currently only request your social network information (Instagram, TikTok or Email) to contact you during the beta phase of the project."
+    },
+    "section2": {
+      "title": "2. Use of information",
+      "content": "Your social network information will be used exclusively to contact you and communicate with you about the launch of SAFAR and to verify your registration in the beta program."
+    },
+    "section3": {
+      "title": "3. Data protection",
+      "content": "We are committed to protecting your personal information. We will not share, sell or disclose your social network information to third parties without your explicit consent."
+    },
+    "section4": {
+      "title": "4. Your rights",
+      "content": "You have the right to request access, rectification or deletion of your personal information at any time. You can contact us at itsjesusmacias@gmail.com."
+    },
+    "section5": {
+      "title": "5. Changes to this policy",
+      "content": "We reserve the right to update this privacy policy. We will notify you of any relevant changes through the contact information you have provided to us."
+    }
   }
 }

@@ -7,6 +7,7 @@ import { HowItWorks } from "@/components/landing-page/how-it-works/how-it-works"
 import { PricingPlans } from "@/components/landing-page/pricing-plans/pricing-plans";
 import { BlogBanner } from "@/components/landing-page/blog-banner/blog-banner";
 import { FAQContent } from "@/components/landing-page/faq/faq";
+import { Footer } from "@/components/footer/footer";
 
 export default async function Home() {
   const t = await getTranslations("home");
@@ -22,9 +23,10 @@ export default async function Home() {
         <PricingPlans />
       </div>
       <BlogBanner />
-      <div className="relative md:w-[850px] mx-auto">
+      <div className="md:w-[850px] mx-auto">
         <FAQContent />
       </div>
+      <Footer />
     </div>
   );
 }

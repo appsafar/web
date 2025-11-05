@@ -7,7 +7,10 @@ const PricingPlans = async () => {
   const t = await getTranslations("pricing");
 
   return (
-    <section className="my-10 md:my-16 flex flex-col items-center justify-center px-4">
+    <section
+      id="pricing"
+      className="my-10 md:my-16 flex flex-col items-center justify-center px-4"
+    >
       <div className="flex flex-col items-center mb-8">
         <h2 className="text-2xl font-semibold text-center md:text-2xl md:font-bold mb-0">
           {t("title")}
