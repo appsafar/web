@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { PlanCard } from "@/components/plan-card/plan-card";
+import { PlanCard } from "@/components/landing-page/plan-card/plan-card";
 import Image from "next/image";
 import { plans } from "./contants";
 

@@ -1,12 +1,12 @@
 import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/navbar/navbar";
-import { Hero } from "@/components/hero/hero";
-import { Banner } from "@/components/banner/banner";
-import { TripCarousel } from "@/components/trip-carousel/trip-carousel";
-import { HowItWorks } from "@/components/how-it-works/how-it-works";
-import { PricingPlans } from "@/components/pricing-plans/pricing-plans";
-import { BlogBanner } from "@/components/blog-banner/blog-banner";
-import { FAQContent } from "@/components/faq/faq";
+import { Hero } from "@/components/landing-page/hero/hero";
+import { Banner } from "@/components/landing-page/banner/banner";
+import { TripCarousel } from "@/components/landing-page/trip-carousel/trip-carousel";
+import { HowItWorks } from "@/components/landing-page/how-it-works/how-it-works";
+import { PricingPlans } from "@/components/landing-page/pricing-plans/pricing-plans";
+import { BlogBanner } from "@/components/landing-page/blog-banner/blog-banner";
+import { FAQContent } from "@/components/landing-page/faq/faq";
 
 export default async function Home() {
   const t = await getTranslations("home");

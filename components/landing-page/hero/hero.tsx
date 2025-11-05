@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
-import { BetaSignup } from "@/components/beta-signup/beta-signup";
-import { FloatTrip } from "@/components/float-trip/float-trip";
-import { TRIP_IMAGES } from "@/components/float-trip/contants";
+import { BetaSignup } from "@/components/landing-page/beta-signup/beta-signup";
+import { FloatTrip } from "@/components/landing-page/float-trip/float-trip";
+import { TRIP_IMAGES } from "@/components/landing-page/float-trip/contants";
 
 export async function Hero() {
   const t = await getTranslations("hero");

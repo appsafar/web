@@ -1,7 +1,7 @@
 "use client";
 
-import { TripCard } from "@/components/trip-card/trip-card";
-import { TRIP_IMAGES } from "@/components/float-trip/contants";
+import { TripCard } from "@/components/landing-page/trip-card/trip-card";
+import { TRIP_IMAGES } from "@/components/landing-page/float-trip/contants";
 import "./trip-carousel.css";
 
 const duplicatedTrips = [...TRIP_IMAGES, ...TRIP_IMAGES];

@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { FeatureCard } from "@/components/feature-card/feature-card";
+import { FeatureCard } from "@/components/landing-page/feature-card/feature-card";
 
 const features = [
   {
