@@ -56,7 +56,7 @@ export function BetaSignup() {
           value={socialType}
           onValueChange={(value) => setSocialType(value as SocialType)}
         >
-          <SelectTrigger className="md:w-[35%] bg-background">
+          <SelectTrigger className="md:w-[35%]">
             <SelectValue />
           </SelectTrigger>
           <SelectContent>
@@ -73,7 +73,7 @@ export function BetaSignup() {
           placeholder={getPlaceholder()}
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          className="flex-1 bg-background"
+          className="flex-1"
         />
       </div>
 
